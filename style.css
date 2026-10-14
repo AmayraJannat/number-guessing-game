@@ -1,0 +1,40 @@
+body {
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#playerOne, #playerTwo {
+    height: 100px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border: 1px solid lightgrey;
+    font-size: 18px;
+}
+input:focus{
+    outline: none;
+}
+button{
+padding: 12px 20px;
+border: none;
+background-color: cadetblue;
+color: #fff;
+cursor: pointer;
+}
+button:hover{
+    background-color: coral;
+}
+button:active {
+    background-color: darkblue;
+}
+#playerTwo{
+    display: none;
+}
+
